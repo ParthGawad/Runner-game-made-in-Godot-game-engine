@@ -14,14 +14,11 @@ It covers essential features through a complete game loop:
 
 - **Scene tree & node composition**
 - **Signals** – for communication between objects (e.g., player hit, level complete)
-- **Timers** – for spawning cars, respawn delays, and cooldowns
-- **Input handling** (keyboard/mobile touch)
+- **Timers** – for spawning cars
+- **Input handling** (keyboard)
 - **Collision detection** (areas and shapes)
 - **AnimationPlayer** for character movement and UI feedback
-- **Autoloads** (singletons) for global game state
-- **UI management** (menus, HUD, win/loss screens)
-
-Everything is organised and commented to make the code easy to follow and modify.
+- **UI management** (menus, HUD, end game screens)
 
 ---
 
@@ -55,7 +52,6 @@ The game is short but packs all the core mechanics you need to build your own 2D
 | Move Down       | `S` / `↓`        | Swipe down            |
 | Move Left       | `A` / `←`        | Swipe left            |
 | Move Right      | `D` / `→`        | Swipe right           |
-| Restart         | `R` (after death)| Tap “Restart” button  |
 
 ---
 
@@ -64,3 +60,4 @@ The game is short but packs all the core mechanics you need to build your own 2D
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/yourusername/runner-game-godot.git
+2. **Then import the project in godot & start playing from there or you also compile it in playable executable**
